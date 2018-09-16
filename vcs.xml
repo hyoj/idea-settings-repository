@@ -22,8 +22,12 @@
           <option name="url" value="https://github.com/docker/labs.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/rauschma/webpack-babel-demo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\dev\IdeaProjects" />
+    <option name="cloneParentDir" value="D:\hyoj\projects" />
   </component>
 </application>
