@@ -4,7 +4,7 @@
     <property name="created">2018-09-16T14:08:47</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.2.3.0.0</property>
-    <property name="modified">2018-09-16T15:16:07</property>
+    <property name="modified">2018-09-16T14:09:10</property>
     <property name="originalScheme">Ladies Night 2 copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -76,34 +76,6 @@
     <option name="BASH$INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="dec136" />
-      </value>
-    </option>
-    <option name="BASH.EXTERNAL_COMMAND">
-      <value>
-        <option name="FOREGROUND" value="be1563" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="BASH.FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="678cb1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="BASH.FUNCTION_DEF_NAME">
-      <value>
-        <option name="FOREGROUND" value="678cb1" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="BASH.HERE_DOC">
-      <value>
-        <option name="BACKGROUND" value="695c5c" />
-      </value>
-    </option>
-    <option name="BASH.INTERNAL_COMMAND">
-      <value>
-        <option name="FOREGROUND" value="746cb1" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
