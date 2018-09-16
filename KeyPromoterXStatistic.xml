@@ -118,7 +118,7 @@
           <IdeaActionID>Vcs.UpdateProject</IdeaActionID>
           <ShortCut>'Ctrl+T'</ShortCut>
           <Description>Update Project...</Description>
-          <Count>2</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
     </option>
