@@ -134,7 +134,7 @@
           <IdeaActionID>ShowUmlDiagramPopup</IdeaActionID>
           <ShortCut>'Ctrl+Alt+U'</ShortCut>
           <Description>Show Diagram Popup...</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'DemoReactorApplication'">
