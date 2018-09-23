@@ -1,0 +1,6 @@
+<application>
+  <component name="com.sburlyaev.cmd.plugin.PluginSettings">
+    <option name="favoriteTerminal" value="$USER_HOME$/cmder/Cmder.exe" />
+    <option name="subDirectory" value="D:/hyoj" />
+  </component>
+</application>
