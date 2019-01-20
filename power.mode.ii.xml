@@ -1,0 +1,11 @@
+<application>
+  <component name="PowerModeII">
+    <option name="flamesEnabled" value="false" />
+    <option name="isBamEnabled" value="false" />
+    <option name="isCaretAction" value="false" />
+    <option name="isPowerIndicatorEnabled" value="false" />
+    <option name="redFrom" value="159" />
+    <option name="redTo" value="193" />
+    <option name="shakeEnabled" value="false" />
+  </component>
+</application>
