@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>58</Count>
+          <Count>59</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
@@ -63,6 +63,14 @@
           <ShortCut>'Ctrl+1'</ShortCut>
           <Description>Home Directory</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Method...">
+        <Item>
+          <IdeaActionID>ExtractMethod</IdeaActionID>
+          <ShortCut>'⌥⌘M'</ShortCut>
+          <Description>Method...</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
