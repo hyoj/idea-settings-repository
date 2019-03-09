@@ -1,5 +1,7 @@
 <application>
   <component name="PowerModeII">
+    <option name="customBamImageFolder" value="C:\Users\hyoj\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5912.21\bin" />
+    <option name="customFlameImageFolder" value="C:\Users\hyoj\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5912.21\bin" />
     <option name="flamesEnabled" value="false" />
     <option name="isBamEnabled" value="false" />
     <option name="isCaretAction" value="false" />
@@ -7,5 +9,6 @@
     <option name="redFrom" value="159" />
     <option name="redTo" value="193" />
     <option name="shakeEnabled" value="false" />
+    <option name="soundsFolder" value="C:\Users\hyoj\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5912.21\bin" />
   </component>
 </application>

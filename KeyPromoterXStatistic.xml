@@ -9,6 +9,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Branches...">
+        <Item>
+          <IdeaActionID>Git.Branches</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+`'</ShortCut>
+          <Description>Branches...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit...">
         <Item>
           <IdeaActionID>CheckinProject</IdeaActionID>
@@ -70,7 +78,7 @@
           <IdeaActionID>FileChooser.GotoProject</IdeaActionID>
           <ShortCut>'Ctrl+2'</ShortCut>
           <Description>Project Directory</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
@@ -174,7 +182,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>35</Count>
+          <Count>36</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diagram Popup...">
