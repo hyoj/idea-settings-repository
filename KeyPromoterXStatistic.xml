@@ -73,6 +73,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'StringAddCalculatorTest.커스텀구분자로_구분하기'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'⌃D'</ShortCut>
+          <Description>Debug 'StringAddCalculatorTest.커스텀구분자로_구분하기'</Description>
+          <Count>6</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'WebMain'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -441,6 +449,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'StringAddCalculatorTest.커스텀구분자로_구분하기'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'StringAddCalculatorTest.커스텀구분자로_구분하기'</Description>
+          <Count>7</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'StringCalculatorTest.test_checkCalculatorText'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -534,7 +550,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>80</Count>
+          <Count>81</Count>
         </Item>
       </Statistic>
       <Statistic Action="Undo">
