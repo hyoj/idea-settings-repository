@@ -73,6 +73,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'StringAddCalculatorTest'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'⌃D'</ShortCut>
+          <Description>Debug 'StringAddCalculatorTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'StringAddCalculatorTest.커스텀구분자로_구분하기'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -310,6 +318,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'RacingGameTest.test_play'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'StringAddCalculatorTest'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'StringAddCalculatorTest'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
