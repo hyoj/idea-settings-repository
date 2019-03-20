@@ -110,7 +110,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>157</Count>
+          <Count>161</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -518,7 +518,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>129</Count>
+          <Count>132</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
