@@ -81,6 +81,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'LottoTest.getContainsCount'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'LottoTest.getContainsCount'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'RacingGameApplication'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -110,7 +118,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>189</Count>
+          <Count>191</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -286,7 +294,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'All Tests'</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DemoReactorApplication'">
@@ -417,6 +425,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'LottoTest.getContainsCount'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTest.getContainsCount'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'LottoTest.하나의_로또_번호_생성하기'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -542,7 +558,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>141</Count>
+          <Count>143</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
