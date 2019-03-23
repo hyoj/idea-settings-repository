@@ -22,7 +22,7 @@
           <IdeaActionID>Git.Branches</IdeaActionID>
           <ShortCut>'Ctrl+Shift+`'</ShortCut>
           <Description>Branches...</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit Message History">
@@ -566,7 +566,7 @@
           <IdeaActionID>Vcs.UpdateProject</IdeaActionID>
           <ShortCut>'Ctrl+T'</ShortCut>
           <Description>Update Project...</Description>
-          <Count>17</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
