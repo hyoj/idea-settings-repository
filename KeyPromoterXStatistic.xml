@@ -110,7 +110,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>144</Count>
+          <Count>149</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete">
@@ -337,6 +337,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'LottoConsoleApp'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'LottoConsoleApp'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'LottoConsoleApp.main()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -503,6 +511,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'DemoReactorApplication'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LottoConsoleApp'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'LottoConsoleApp'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'LottoListTest.로또_10개_발급'">
