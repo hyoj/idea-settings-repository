@@ -9,6 +9,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Change Signature...">
+        <Item>
+          <IdeaActionID>ChangeSignature</IdeaActionID>
+          <ShortCut>'⌘F6'</ShortCut>
+          <Description>Change Signature...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit...">
         <Item>
           <IdeaActionID>CheckinProject</IdeaActionID>
@@ -102,7 +110,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>121</Count>
+          <Count>135</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete">
@@ -278,7 +286,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>31</Count>
+          <Count>36</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -302,7 +310,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'All Tests'</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DemoReactorApplication'">
@@ -343,6 +351,14 @@
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'StringCalculatorTest.test_extractExpressions'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'Tests in 'lotto.domain''">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'Tests in 'lotto.domain''</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'WebMain'">
@@ -465,6 +481,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'LottoListTest.로또_10개_발급'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'LottoListTest.로또_10개_발급'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'LottoMatcherTest'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -545,6 +569,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'lotto.domain in java-lotto.test'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'lotto.domain in java-lotto.test'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'server'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -598,7 +630,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>95</Count>
+          <Count>104</Count>
         </Item>
       </Statistic>
       <Statistic Action="Undo">
