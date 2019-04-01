@@ -81,6 +81,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'ApiQuestionAcceptanceTest.create'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'ApiQuestionAcceptanceTest.create'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'ConsoleInputTest.inputManualLottos'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -142,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>227</Count>
+          <Count>231</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -350,6 +358,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'All in java-lotto.test'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'ApiQuestionAcceptanceTest.create'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'ApiQuestionAcceptanceTest.create'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -662,7 +678,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>181</Count>
+          <Count>183</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
