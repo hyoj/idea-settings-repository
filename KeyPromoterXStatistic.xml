@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>239</Count>
+          <Count>247</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -249,6 +249,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Quick Documentation">
+        <Item>
+          <IdeaActionID>QuickJavaDoc</IdeaActionID>
+          <ShortCut>'Ctrl+Q'</ShortCut>
+          <Description>Quick Documentation</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Quick Evaluate Expression">
         <Item>
           <IdeaActionID>QuickEvaluateExpression</IdeaActionID>
@@ -311,6 +319,14 @@
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'RacingGameApplication'</Description>
           <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Tests in 'java-qna-atdd.test''">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'Tests in 'java-qna-atdd.test''</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'lotto.domain in java-lotto.test'">
@@ -391,6 +407,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'RacingGameApplication'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'Tests in 'java-qna-a...'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'Tests in 'java-qna-a...'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Tests in 'lotto.domain''">
