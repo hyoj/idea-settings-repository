@@ -761,6 +761,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'QnaServiceTest.add_answer'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'QnaServiceTest.add_answer'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'QnaServiceTest.update_question_success'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -942,7 +950,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>214</Count>
+          <Count>218</Count>
         </Item>
       </Statistic>
       <Statistic Action="Undo">
