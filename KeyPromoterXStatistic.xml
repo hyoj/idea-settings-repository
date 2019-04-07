@@ -105,12 +105,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'DefaultLineGeneratorTest.generate'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'⌃D'</ShortCut>
+          <Description>Debug 'DefaultLineGeneratorTest.generate'</Description>
+          <Count>9</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'LadderConsoleApp'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'⌃D'</ShortCut>
           <Description>Debug 'LadderConsoleApp'</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'LottoMatcherTest.당첨결과'">
@@ -214,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>357</Count>
+          <Count>369</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete">
@@ -454,7 +462,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -470,7 +478,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'All Tests'</Description>
-          <Count>44</Count>
+          <Count>50</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'All in java-lotto.test'">
@@ -502,7 +510,15 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'LadderConsoleApp'</Description>
-          <Count>5</Count>
+          <Count>10</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'LadderTest'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'LadderTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'LottoConsoleApp'">
@@ -742,7 +758,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'DefaultLineGeneratorTest.generate'</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'DemoReactorApplication'">
@@ -758,7 +774,15 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'LadderConsoleApp'</Description>
-          <Count>3</Count>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LadderTest'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'LadderTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'LottoConsoleApp'">
@@ -1006,7 +1030,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>249</Count>
+          <Count>255</Count>
         </Item>
       </Statistic>
       <Statistic Action="Undo">
