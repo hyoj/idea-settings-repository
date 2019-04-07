@@ -206,7 +206,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>334</Count>
+          <Count>338</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete">
@@ -479,6 +479,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'DemoReactorApplication'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'LadderConsoleApp'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'LadderConsoleApp'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'LottoConsoleApp'">
