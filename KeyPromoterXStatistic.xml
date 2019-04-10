@@ -166,7 +166,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>289</Count>
+          <Count>291</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -545,6 +545,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'GameResultTest.toString1'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'GameResultTest.toString1'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'LottoConsoleApp'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -734,7 +742,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>200</Count>
+          <Count>205</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
