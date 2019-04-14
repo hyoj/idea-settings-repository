@@ -113,6 +113,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'BowlingConsoleApp'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'⌃D'</ShortCut>
+          <Description>Debug 'BowlingConsoleApp'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'DefaultLineGeneratorTest.generate'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -238,7 +246,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>433</Count>
+          <Count>446</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete">
@@ -519,6 +527,14 @@
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'BowlingConsole....main()'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'BowlingConsoleApp'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'BowlingConsoleApp'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DefaultLineGeneratorTest.generate'">
@@ -815,6 +831,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'ApiQuestionAcceptanceTest.create'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'BowlingConsoleApp'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'BowlingConsoleApp'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ChanceTest.총투구_결과_미스'">
@@ -1134,7 +1158,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>269</Count>
+          <Count>270</Count>
         </Item>
       </Statistic>
       <Statistic Action="Undo">
