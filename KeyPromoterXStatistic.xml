@@ -6,23 +6,31 @@
           <IdeaActionID>Git.Add</IdeaActionID>
           <ShortCut>'Ctrl+Alt+A'</ShortCut>
           <Description>Add</Description>
-          <Count>8</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Change Signature...">
+      <Statistic Action="Back">
         <Item>
-          <IdeaActionID>ChangeSignature</IdeaActionID>
-          <ShortCut>'⌘F6'</ShortCut>
-          <Description>Change Signature...</Description>
+          <IdeaActionID>Back</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Left'</ShortCut>
+          <Description>Back</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Branches...">
+        <Item>
+          <IdeaActionID>Git.Branches</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+`'</ShortCut>
+          <Description>Branches...</Description>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit Message History">
         <Item>
           <IdeaActionID>Vcs.ShowMessageHistory</IdeaActionID>
-          <ShortCut>'⌃M' or '⌘E'</ShortCut>
+          <ShortCut>'Ctrl+M' or 'Ctrl+E'</ShortCut>
           <Description>Commit Message History</Description>
-          <Count>8</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit...">
@@ -36,7 +44,7 @@
       <Statistic Action="Constant...">
         <Item>
           <IdeaActionID>IntroduceConstant</IdeaActionID>
-          <ShortCut>'⌥⌘C'</ShortCut>
+          <ShortCut>'Ctrl+Alt+C'</ShortCut>
           <Description>Constant...</Description>
           <Count>1</Count>
         </Item>
@@ -46,15 +54,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>16</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Copy Reference">
-        <Item>
-          <IdeaActionID>CopyReference</IdeaActionID>
-          <ShortCut>'⌥⇧⌘C'</ShortCut>
-          <Description>Copy Reference</Description>
-          <Count>1</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Relative Path">
@@ -65,180 +65,140 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Cut">
-        <Item>
-          <IdeaActionID>$Cut</IdeaActionID>
-          <ShortCut>'⌘X' or '⇧⌦'</ShortCut>
-          <Description>Cut</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Debug">
         <Item>
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
-          <ShortCut>'⌘5'</ShortCut>
+          <ShortCut>'Alt+5'</ShortCut>
           <Description>Debug</Description>
-          <Count>1</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'All Tests'">
-        <Item>
-          <IdeaActionID>DebugClass</IdeaActionID>
-          <ShortCut>'⌃⇧D'</ShortCut>
-          <Description>Debug 'All Tests'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'ApiAnswerAcceptanceTest.create'">
+      <Statistic Action="Debug 'All in java-lotto.test'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'ApiAnswerAcceptanceTest.create'</Description>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'All in java-lotto.test'</Description>
           <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'ApiAnswerAcceptanceTest.delete'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'ApiAnswerAcceptanceTest.delete'</Description>
-          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'ApiQuestionAcceptanceTest.create'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
+          <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'ApiQuestionAcceptanceTest.create'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'ApiQuestionAcceptanceTest.update_not_owner'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'ApiQuestionAcceptanceTest.update_not_owner'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'BowlingConsoleApp'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
+          <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'BowlingConsoleApp'</Description>
+          <Count>15</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'ConsoleInputTest.inputManualLottos'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'ConsoleInputTest.inputManualLottos'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'DefaultLineGeneratorTest.generate'">
+      <Statistic Action="Debug 'DefaultFrameTest.총투구_결과_스페어'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'DefaultLineGeneratorTest.generate'</Description>
-          <Count>9</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'LadderConsoleApp'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'LadderConsoleApp'</Description>
-          <Count>7</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'LottoMatcherTest.당첨결과'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'LottoMatcherTest.당첨결과'</Description>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'DefaultFrameTest.총투구_결과_스페어'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'LottoMatcherTest.당첨결과_보너스번호없음'">
+      <Statistic Action="Debug 'FinalFrameTest'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'LottoMatcherTest.당첨결과_보너스번호없음'</Description>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'FinalFrameTest'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'LottoMatcherTest.당첨결과_보너스번호있음'">
+      <Statistic Action="Debug 'FinalFrameTest.마지막프레임_스페어_미스_텍스트로_표현'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'LottoMatcherTest.당첨결과_보너스번호있음'</Description>
-          <Count>9</Count>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'FinalFrameTest.마지막프레임_스페어_미스_텍스트로_표현'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'LottoMoneyTest.총수익률'">
+      <Statistic Action="Debug 'FinalFrameTest.마지막프레임_한번더_투구_기회있음'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'LottoMoneyTest.총수익률'</Description>
-          <Count>4</Count>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'FinalFrameTest.마지막프레임_한번더_투구_기회있음'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'LottoConsoleApp'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'LottoConsoleApp'</Description>
+          <Count>15</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'LottoTest.getContainsCount'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'LottoTest.getContainsCount'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'LottoWebApp'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'LottoWebApp'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'QnaApplication'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
+          <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'QnaApplication'</Description>
-          <Count>10</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Debug 'QnaServiceTest.update_question_success'">
+      <Statistic Action="Debug 'RacingGameApplication'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'QnaServiceTest.update_question_success'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'QuestionTest.delete_작성자_맞음'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'QuestionTest.delete_작성자_맞음'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'RacingGameTest.test_determineWinners'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'RacingGameTest.test_determineWinners'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'RacingGameTest.test_play'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'RacingGameTest.test_play'</Description>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'RacingGameApplication'</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'StringAddCalculatorTest'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
+          <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'StringAddCalculatorTest'</Description>
           <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug 'StringAddCalculatorTest.커스텀구분자로_구분하기'">
-        <Item>
-          <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
-          <Description>Debug 'StringAddCalculatorTest.커스텀구분자로_구분하기'</Description>
-          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'WebMain'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
-          <ShortCut>'⌃D'</ShortCut>
+          <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'WebMain'</Description>
-          <Count>21</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Debug '총수익률()'">
-        <Item>
-          <IdeaActionID>DebugClass</IdeaActionID>
-          <ShortCut>'⌃⇧D'</ShortCut>
-          <Description>Debug '총수익률()'</Description>
-          <Count>2</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -246,63 +206,31 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>451</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Delete">
-        <Item>
-          <IdeaActionID>$Delete</IdeaActionID>
-          <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
-          <Description>Delete</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Duplicate Watch">
-        <Item>
-          <IdeaActionID>XDebugger.CopyWatch</IdeaActionID>
-          <ShortCut>'⌘D'</ShortCut>
-          <Description>Duplicate Watch</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Find Usages">
-        <Item>
-          <IdeaActionID>FindUsages</IdeaActionID>
-          <ShortCut>'⌥F7'</ShortCut>
-          <Description>Find Usages</Description>
-          <Count>1</Count>
+          <Count>422</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
         <Item>
           <IdeaActionID>ForceStepInto</IdeaActionID>
-          <ShortCut>'⌥⇧F7'</ShortCut>
+          <ShortCut>'Alt+Shift+F7'</ShortCut>
           <Description>Force Step Into</Description>
           <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Functional Parameter...">
-        <Item>
-          <IdeaActionID>IntroduceFunctionalParameter</IdeaActionID>
-          <ShortCut>'⌥⇧⌘P'</ShortCut>
-          <Description>Functional Parameter...</Description>
-          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
         <Item>
           <IdeaActionID>Generate</IdeaActionID>
-          <ShortCut>'⌃N' or '⌃⏎'</ShortCut>
+          <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>13</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
         <Item>
           <IdeaActionID>HideAllWindows</IdeaActionID>
-          <ShortCut>'⇧⌘F12'</ShortCut>
+          <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Hide All Windows</Description>
-          <Count>6</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide Grid">
@@ -324,16 +252,16 @@
       <Statistic Action="Method...">
         <Item>
           <IdeaActionID>ExtractMethod</IdeaActionID>
-          <ShortCut>'⌥⌘M'</ShortCut>
+          <ShortCut>'Ctrl+Alt+M'</ShortCut>
           <Description>Method...</Description>
-          <Count>11</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Optimize Imports">
+      <Statistic Action="New Watch...">
         <Item>
-          <IdeaActionID>OptimizeImports</IdeaActionID>
-          <ShortCut>'⌃⌥O'</ShortCut>
-          <Description>Optimize Imports</Description>
+          <IdeaActionID>XDebugger.NewWatch</IdeaActionID>
+          <ShortCut>'Insert'</ShortCut>
+          <Description>New Watch...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -342,15 +270,15 @@
           <IdeaActionID>$Paste</IdeaActionID>
           <ShortCut>'Ctrl+V' or 'Shift+Insert'</ShortCut>
           <Description>Paste</Description>
-          <Count>18</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
         <Item>
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
-          <ShortCut>'⌘1'</ShortCut>
+          <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Directory">
@@ -358,7 +286,7 @@
           <IdeaActionID>FileChooser.GotoProject</IdeaActionID>
           <ShortCut>'Ctrl+2'</ShortCut>
           <Description>Project Directory</Description>
-          <Count>9</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
@@ -366,7 +294,7 @@
           <IdeaActionID>ShowProjectStructureSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+S'</ShortCut>
           <Description>Project Structure...</Description>
-          <Count>3</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Push...">
@@ -374,22 +302,22 @@
           <IdeaActionID>Vcs.Push</IdeaActionID>
           <ShortCut>'Ctrl+Shift+K'</ShortCut>
           <Description>Push...</Description>
-          <Count>4</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Refresh">
+      <Statistic Action="Quick Documentation">
         <Item>
-          <IdeaActionID>Vcs.Log.Refresh</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Refresh</Description>
-          <Count>2</Count>
+          <IdeaActionID>QuickJavaDoc</IdeaActionID>
+          <ShortCut>'Ctrl+Q'</ShortCut>
+          <Description>Quick Documentation</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Remove Watch">
+      <Statistic Action="Quick Evaluate Expression">
         <Item>
-          <IdeaActionID>XDebugger.RemoveWatch</IdeaActionID>
-          <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
-          <Description>Remove Watch</Description>
+          <IdeaActionID>QuickEvaluateExpression</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+F8'</ShortCut>
+          <Description>Quick Evaluate Expression</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -398,7 +326,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6'</ShortCut>
           <Description>Rename...</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Replace in Path...">
@@ -409,68 +337,84 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'All in java-bowling.test (1)'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'All in java-bowling.test (1)'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'All in java-bowling.test'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'All in java-bowling.test'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'All in java-lotto.test'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
+          <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'All in java-lotto.test'</Description>
-          <Count>2</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Rerun 'All in java-qna-atdd.test'">
+      <Statistic Action="Rerun 'ConsoleMain'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Rerun 'All in java-qna-atdd.test'</Description>
-          <Count>2</Count>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'ConsoleMain'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'LottoConsoleApp'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
+          <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'LottoConsoleApp'</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'LottoTicketTest.getWinningResult'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'LottoTicketTest.getWinningResult'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'RacingGameApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'RacingGameApplication'</Description>
           <Count>6</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Rerun 'LottoListTest.로또_10개_발급'">
+      <Statistic Action="Rerun 'Tests in 'java-qna-atdd.test''">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Rerun 'LottoListTest.로또_10개_발급'</Description>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'Tests in 'java-qna-atdd.test''</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'com.hyoj.bowling.domain in java-bowling.test'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'com.hyoj.bowling.domain in java-bowling.test'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Rerun 'LottoMatcherTest.당첨결과'">
+      <Statistic Action="Rerun 'lotto.domain in java-lotto.test'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Rerun 'LottoMatcherTest.당첨결과'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'QuestionAcceptanceTest'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Rerun 'QuestionAcceptanceTest'</Description>
-          <Count>4</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Rerun 'StringAddCalculatorTest'">
-        <Item>
-          <IdeaActionID>Rerun</IdeaActionID>
-          <ShortCut>'⌘R'</ShortCut>
-          <Description>Rerun 'StringAddCalculatorTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Restore Windows">
-        <Item>
-          <IdeaActionID>HideAllWindows</IdeaActionID>
-          <ShortCut>'⇧⌘F12'</ShortCut>
-          <Description>Restore Windows</Description>
-          <Count>7</Count>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'lotto.domain in java-lotto.test'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
@@ -478,7 +422,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>66</Count>
+          <Count>48</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -486,7 +430,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>11</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -494,55 +438,39 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'Alt+4'</ShortCut>
           <Description>Run</Description>
-          <Count>4</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'All Tests'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'All Tests'</Description>
-          <Count>58</Count>
+          <Count>43</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'All in java-lotto.test'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
+          <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'All in java-lotto.test'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'AnswerTest'">
+      <Statistic Action="Run 'ApiQuestionAcceptanceTest.create'">
         <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'AnswerTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'BowlingConsole....main()'">
-        <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'BowlingConsole....main()'</Description>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'ApiQuestionAcceptanceTest.create'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'BowlingConsoleApp'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
+          <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'BowlingConsoleApp'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'DefaultLineGeneratorTest.generate'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'DefaultLineGeneratorTest.generate'</Description>
-          <Count>1</Count>
+          <Count>39</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DemoReactorApplication'">
@@ -553,148 +481,100 @@
           <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'LadderConsoleApp'">
+      <Statistic Action="Run 'FinalFrameTest'">
         <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LadderConsoleApp'</Description>
-          <Count>15</Count>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'FinalFrameTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'LadderTest'">
+      <Statistic Action="Run 'FinalFrameTest.마지막프레임_미스는_추가_투구불가'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LadderTest'</Description>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'FinalFrameTest.마지막프레임_미스는_추가_투구불가'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'FinalFrameTest.마지막프레임_미스는_추가_투구없음'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'FinalFrameTest.마지막프레임_미스는_추가_투구없음'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'FrameTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'FrameTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'FrameTest.텍스트로_표현_STRIKE'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'FrameTest.텍스트로_표현_STRIKE'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'LottoConsoleApp'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
+          <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'LottoConsoleApp'</Description>
-          <Count>8</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'LottoConsoleApp.main()'">
+      <Statistic Action="Run 'QnaApplication'">
         <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'LottoConsoleApp.main()'</Description>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'QnaApplication'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'LottoMatcherTest.당첨결과'">
+      <Statistic Action="Run 'RacingGameApplication'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LottoMatcherTest.당첨결과'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'LottoMatcherTest.당첨결과_보너스번호없음'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LottoMatcherTest.당첨결과_보너스번호없음'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'LottoMatcherTest.당첨결과_보너스번호있음'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LottoMatcherTest.당첨결과_보너스번호있음'</Description>
-          <Count>8</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'LottoMoneyTest.총수익률'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'LottoMoneyTest.총수익률'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RacingGameApplication (1)'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'RacingGameApplication (1)'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'RacingGameTest.test_play'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'RacingGameTest.test_play'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'StringAddCalculatorTest'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'StringAddCalculatorTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'StringCalculatorTest.test_extractExpressions'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'StringCalculatorTest.test_extractExpressions'</Description>
-          <Count>1</Count>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'RacingGameApplication'</Description>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Tests in 'com.hyoj.bowling.domain''">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'Tests in 'com.hyoj.bowling.domain''</Description>
-          <Count>1</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'Tests in 'lotto''">
+      <Statistic Action="Run 'Tests in 'java-qna-a...'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'Tests in 'lotto''</Description>
-          <Count>1</Count>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'Tests in 'java-qna-a...'</Description>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Tests in 'lotto.domain''">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'Tests in 'lotto.domain''</Description>
-          <Count>4</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'Tests in 'nextstep.domain''">
-        <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'Tests in 'nextstep.domain''</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'UserAcceptanceTest.update'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'UserAcceptanceTest.update'</Description>
-          <Count>2</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'WebMain'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
+          <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'WebMain'</Description>
-          <Count>9</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'client'">
@@ -703,14 +583,6 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'client'</Description>
           <Count>8</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'contextLoads()'">
-        <Item>
-          <IdeaActionID>RunClass</IdeaActionID>
-          <ShortCut>'⌃⇧R'</ShortCut>
-          <Description>Run 'contextLoads()'</Description>
-          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'dev'">
@@ -726,14 +598,6 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'npm install'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Run 'racingcar in java-racingcar.test'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'⌃R'</ShortCut>
-          <Description>Run 'racingcar in java-racingcar.test'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -753,20 +617,12 @@
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run to Cursor">
-        <Item>
-          <IdeaActionID>RunToCursor</IdeaActionID>
-          <ShortCut>'⌥F9'</ShortCut>
-          <Description>Run to Cursor</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>35</Count>
+          <Count>55</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diagram Popup...">
@@ -790,87 +646,71 @@
           <IdeaActionID>StepInto</IdeaActionID>
           <ShortCut>'F7'</ShortCut>
           <Description>Step Into</Description>
-          <Count>19</Count>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Out">
         <Item>
           <IdeaActionID>StepOut</IdeaActionID>
-          <ShortCut>'⇧F8'</ShortCut>
+          <ShortCut>'Shift+F8'</ShortCut>
           <Description>Step Out</Description>
-          <Count>8</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Step Over">
-        <Item>
-          <IdeaActionID>StepOver</IdeaActionID>
-          <ShortCut>'F8'</ShortCut>
-          <Description>Step Over</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'All in java-lotto.test (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'All in java-lotto.test (1)'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'All in java-qna-atdd.test'">
+      <Statistic Action="Stop 'All in java-bowling.test'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'All in java-qna-atdd.test'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'ApiQuestionAcceptanceTest.create'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'ApiQuestionAcceptanceTest.create'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'All in java-bowling.test'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'BowlingConsoleApp'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
+          <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'BowlingConsoleApp'</Description>
+          <Count>11</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'ConsoleInputTest.inputManualLottos'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ConsoleInputTest.inputManualLottos'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'DefaultFrameTest'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DefaultFrameTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'DefaultFrameTest.총투구_결과_스페어'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DefaultFrameTest.총투구_결과_스페어'</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'ChanceTest.총투구_결과_미스'">
+      <Statistic Action="Stop 'DefaultFrameTest.텍스트로_표현_MISS'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'ChanceTest.총투구_결과_미스'</Description>
-          <Count>1</Count>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DefaultFrameTest.텍스트로_표현_MISS'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'ChanceTest.총투구_결과_스트라이크'">
+      <Statistic Action="Stop 'DefaultFrameTest.한번에_투구_횟수_모두_소모'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'ChanceTest.총투구_결과_스트라이크'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'ChanceTest.총투구_결과_스페어'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'ChanceTest.총투구_결과_스페어'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'DefaultLineGeneratorTest.generate'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'DefaultLineGeneratorTest.generate'</Description>
-          <Count>3</Count>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DefaultFrameTest.한번에_투구_횟수_모두_소모'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'DemoReactorApplication'">
@@ -881,204 +721,180 @@
           <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LadderConsoleApp'">
+      <Statistic Action="Stop 'FinalFrameTest.마지막프레임_두번째투구_스트라이크_실패'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LadderConsoleApp'</Description>
-          <Count>5</Count>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'FinalFrameTest.마지막프레임_두번째투구_스트라이크_실패'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LadderTest'">
+      <Statistic Action="Stop 'FinalFrameTest.마지막프레임_미스는_추가_투구불가'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LadderTest'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'FinalFrameTest.마지막프레임_미스는_추가_투구불가'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'FinalFrameTest.마지막프레임_미스는_추가_투구없음'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'FinalFrameTest.마지막프레임_미스는_추가_투구없음'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'FinalFrameTest.마지막프레임_스트라이크_3회_텍스트로_표현'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'FinalFrameTest.마지막프레임_스트라이크_3회_텍스트로_표현'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'FinalFrameTest.마지막프레임_한번더_투구_기회있음'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'FinalFrameTest.마지막프레임_한번더_투구_기회있음'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'GameResultTest.toString1'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'GameResultTest.toString1'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'LottoConsoleApp'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
+          <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'LottoConsoleApp'</Description>
-          <Count>2</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LottoListTest.로또_10개_발급'">
+      <Statistic Action="Stop 'LottoListTest.로또_수동_자동_같이_발급'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LottoListTest.로또_10개_발급'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoListTest.로또_수동_자동_같이_발급'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LottoMachineTest.getWinningResult'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoMachineTest.getWinningResult'</Description>
           <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LottoMatcherTest'">
+      <Statistic Action="Stop 'LottoTest.contains'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LottoMatcherTest'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTest.contains'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LottoMatcherTest.당첨결과_보너스번호있음'">
+      <Statistic Action="Stop 'LottoTest.getContainsCount'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LottoMatcherTest.당첨결과_보너스번호있음'</Description>
-          <Count>11</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'LottoMoneyTest.총수익률'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LottoMoneyTest.총수익률'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTest.getContainsCount'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'LottoTest.로또의_각_번호는_유일한지'">
+      <Statistic Action="Stop 'LottoTest.로또_자동생성'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'LottoTest.로또의_각_번호는_유일한지'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTest.로또_자동생성'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LottoTest.하나의_로또_번호_생성하기'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTest.하나의_로또_번호_생성하기'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LottoTicketTest.announceWinningResult'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoTicketTest.announceWinningResult'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'LottoWebApp'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'LottoWebApp'</Description>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'QnaApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
+          <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'QnaApplication'</Description>
-          <Count>9</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'QnaServiceTest.add_answer'">
+      <Statistic Action="Stop 'RacingCar'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'QnaServiceTest.add_answer'</Description>
-          <Count>1</Count>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'RacingCar'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'QnaServiceTest.delete_answer'">
+      <Statistic Action="Stop 'RacingGame'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'QnaServiceTest.delete_answer'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'QnaServiceTest.update_question_success'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'QnaServiceTest.update_question_success'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'QuestionAcceptanceTest'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'QuestionAcceptanceTest'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'QuestionTest.delete_작성자_맞음'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'QuestionTest.delete_작성자_맞음'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'RacingGameApplication (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'RacingGameApplication (1)'</Description>
-          <Count>2</Count>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'RacingGame'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'RacingGameApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
+          <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'RacingGameApplication'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'RacingGameServiceTest.startGame'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'RacingGameServiceTest.startGame'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'RacingGameTest.test_play'">
+      <Statistic Action="Stop 'RacingGameTest.test_show'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'RacingGameTest.test_play'</Description>
-          <Count>6</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'StringAddCalculatorTest.커스텀구분자로_구분하기'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'StringAddCalculatorTest.커스텀구분자로_구분하기'</Description>
-          <Count>7</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'StringCalculatorTest.test_checkCalculatorText'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'StringCalculatorTest.test_checkCalculatorText'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'StringCalculatorTest.덧셈_뺄셈'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'StringCalculatorTest.덧셈_뺄셈'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'UserAcceptanceTest.update'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'UserAcceptanceTest.update'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'UserAcceptanceTest.update_no_login'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'UserAcceptanceTest.update_no_login'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'UserTest.update_owner'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'UserTest.update_owner'</Description>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'RacingGameTest.test_show'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'WebMain'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
+          <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'WebMain'</Description>
-          <Count>21</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop 'WinningLottoTest.순위결정'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'WinningLottoTest.순위결정'</Description>
-          <Count>1</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'client'">
@@ -1097,14 +913,6 @@
           <Count>6</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'lotto.domain in java-lotto.test'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'⌘F2'</ShortCut>
-          <Description>Stop 'lotto.domain in java-lotto.test'</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Stop 'server'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1118,7 +926,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>7</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -1142,15 +950,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>31</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Test">
-        <Item>
-          <IdeaActionID>GotoTest</IdeaActionID>
-          <ShortCut>'⇧⌘T'</ShortCut>
-          <Description>Test</Description>
-          <Count>2</Count>
+          <Count>27</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
@@ -1158,31 +958,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>270</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Undo">
-        <Item>
-          <IdeaActionID>$Undo</IdeaActionID>
-          <ShortCut>'⌘Z'</ShortCut>
-          <Description>Undo</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Undo Backspace">
-        <Item>
-          <IdeaActionID>$Undo</IdeaActionID>
-          <ShortCut>'⌘Z'</ShortCut>
-          <Description>Undo Backspace</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Undo Typing">
-        <Item>
-          <IdeaActionID>$Undo</IdeaActionID>
-          <ShortCut>'⌘Z'</ShortCut>
-          <Description>Undo Typing</Description>
-          <Count>1</Count>
+          <Count>273</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
@@ -1190,7 +966,15 @@
           <IdeaActionID>Vcs.UpdateProject</IdeaActionID>
           <ShortCut>'Ctrl+T'</ShortCut>
           <Description>Update Project...</Description>
-          <Count>17</Count>
+          <Count>18</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Variable...">
+        <Item>
+          <IdeaActionID>IntroduceVariable</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+V'</ShortCut>
+          <Description>Variable...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
@@ -1199,6 +983,14 @@
           <ShortCut>'Alt+9' or 'Alt+Shift+9'</ShortCut>
           <Description>Version Control</Description>
           <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="View Breakpoints...">
+        <Item>
+          <IdeaActionID>ViewBreakpoints</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F8'</ShortCut>
+          <Description>View Breakpoints...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
     </option>

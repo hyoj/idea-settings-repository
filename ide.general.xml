@@ -3,6 +3,8 @@
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
+    <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
+    <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="vcs.annotations.preload" value="true" />
   </component>
 </application>

@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="ZuulConfig" type="CLASS" />
-      <mapping ext="mustache" type="HTML" />
     </extensionMap>
   </component>
 </application>
